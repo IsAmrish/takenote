@@ -5,6 +5,7 @@ import { Helmet, HelmetProvider } from 'react-helmet-async'
 import { useAuth0 } from 'auth'
 import PrivateRoute from 'routes/PrivateRoute'
 import LandingPage from 'containers/LandingPage'
+import LandingPageSecond from 'containers/LandingPageSecond'
 import TakeNoteApp from 'containers/TakeNoteApp'
 
 const App: React.FC = () => {
